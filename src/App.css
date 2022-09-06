@@ -1,204 +1,38 @@
-/* Global styles */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-section {
-  padding-bottom: 30px;
+img {
+  width: 370px;
 }
 
-.section-heading h1 {
-  font-size: 42px;
-  margin-bottom: 10px;
-}
-
-.main-button {
-  background: red;
-  border: none;
-  outline: none;
-  padding: 14px 20px;
-  margin-top: 20px;
-}
-
-.main-button a {
+.btn-all {
+  background-color: rgb(149, 207, 14);
   color: white;
-  text-decoration: none;
 }
 
-/* Hero section styles */
-#hero-section {
-  text-align: center;
-  color: white;
-  padding: 200px 270px 150px;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../public/images/donation3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-#hero-section h1 {
-  font-size: 42px;
-}
-
-/* Donation section styles */
-#donation-section {
-  text-align: center;
-  min-height: 350px;
-  padding-top: 70px;
-}
-
-#donation-section .donation-button {
-  background-color: rgb(235, 235, 235);
-  border: none;
-  outline: none;
-  padding: 24px;
-  font-size: 20px;
+.menu ul li {
+  margin-right: 40px;
   font-weight: bold;
-  margin: 3px;
 }
 
-#donation-section .active-button {
-  background-color: rgb(255, 197, 197);
-  border: 1px solid red;
-  padding: 24px;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-}
-
-#donation-section .btn-container {
-  margin-top: 30px;
-}
-
-#donation-section input {
-  border: none;
-  border-bottom: 1px solid rgb(211, 211, 211);
-  padding: 30px 120px 20px;
-  margin: 20px auto;
-  font-size: 20px;
-  text-align: center;
-  display: block;
-}
-
-/* Plan section styles */
-#plan-section {
-  text-align: center;
-  min-height: 350px;
-  padding-top: 70px;
-}
-
-#plan-section .plans-container {
-  display: flex;
-  width: 80%;
-  margin: 40px auto;
-}
-
-#plan-section .plan-div {
-  margin: 14px;
-  padding: 50px;
-  text-align: left;
-}
-
-#plan-section .plan-div img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-#plan-section .plan-div h3 {
-  margin-bottom: 10px;
-}
-
-#plan-section #plan-div1 {
-  background: rgb(228, 253, 204);
-}
-
-#plan-section #plan-div2 {
-  background: rgb(253, 204, 204);
-}
-
-#plan-section #plan-div3 {
-  background: rgb(253, 232, 204);
-}
-
-/* Count section styling */
-#count-section {
-  text-align: center;
-}
-
-#count-section .cards-container {
-  width: 80%;
-  display: flex;
-  margin: 40px auto;
-}
-
-#count-section .column {
-  width: 24%;
-  padding: 0 5px;
-}
-
-#count-section .card {
-  padding: 30px;
-  text-align: center;
-  background-color: rgb(255, 194, 194);
-}
-
-/* Newsletter section styles */
-#newsletter-section {
-  text-align: center;
-  min-height: 350px;
-  padding-top: 70px;
-}
-
-.form {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 45px;
-  margin-bottom: 25px;
-  background-color: rgb(255, 214, 207);
-  min-height: 260px;
-  padding-top: 100px;
-}
-
-.form-email {
-  padding: 20px 25px;
-  border-radius: 5px;
-  border: 1px solid #cad3db;
-  width: 431px;
-  font-size: 18px;
-  color: #0f121f;
-}
-
-.form-email:focus {
-  outline: 1px solid #ff3d3d;
-}
-
-.form-button {
-  background: #ff3d3d;
-  padding: 10px;
-  border: none;
-  width: 244px;
-  height: 65px;
-  border-radius: 5px;
-  font-size: 18px;
-  color: white;
-  box-shadow: 0 4px 20px rgba(255, 61, 61, 0.7);
-}
-
-/* Footer styles */
-footer {
+.footer-text {
   text-align: center;
   color: white;
-  background: black;
-  padding: 30px 20px;
-  line-height: 30px;
+  font-size: 13px;
+}
+
+.my-footer {
+  background-color: rgb(15, 15, 15);
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.fourth {
+  margin-top: 80px;
+}
+
+h5 img {
+  width: 300px;
 }
