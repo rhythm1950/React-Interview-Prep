@@ -1,38 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+/** /------- BASIC -------/ **/
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
-img {
-  width: 370px;
+h1 {
+  font-weight: 800;
 }
 
-.btn-all {
-  background-color: rgb(149, 207, 14);
-  color: white;
+video {
+  max-width: 100%;
 }
 
-.menu ul li {
-  margin-right: 40px;
-  font-weight: bold;
+.main-title {
+  color: #030303fc;
+  margin-bottom: 60px;
 }
 
-.footer-text {
+.custom-btn {
+  background-color: #fb5b9b;
+  padding: 10px 35px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
   text-align: center;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.text {
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.mtop-100 {
+  margin-top: 100px;
+}
+
+/** /------- Navbar -------/ **/
+.custom-navbar {
+  background-color: #5f20e9;
+  padding: 10px;
+}
+
+.custom-navbar .navbar-brand img {
+  height: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-link img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+/** /------- Slider -------/ **/
+.slider-area {
+  color: #ffffff;
+  background-color: #5f20e9;
+  height: 570px;
+}
+
+.slider-area .carousel-control-next,
+.slider-area .carousel-control-prev {
+  display: none;
+}
+
+.slider-area .carousel-item {
+  padding: 50px 0;
+  height: 450px;
+}
+
+/** Next Batch **/
+.next-batch {
+  background-color: #ffffff;
+  padding: 60px 40px;
+  border-radius: 20px;
+  margin-top: -90px;
+  width: 80%;
+}
+
+.next-batch h5 {
+  color: #000000;
+  font-weight: 600;
+}
+
+.next-batch .icon.icon-1 {
+  background-color: #5e17e6;
+}
+.next-batch .icon.icon-2 {
+  background-color: #ffa92f;
+}
+.next-batch .icon.icon-3 {
+  background-color: #fb6f5b;
+}
+.next-batch .icon.icon-4 {
+  background-color: #ff2264;
+}
+
+.next-batch-btn {
+  color: #ffffff;
+  background-color: #5f20e9;
+  padding: 4px;
+  margin-top: 50px;
+}
+
+.next-batch-btn h5 {
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+/** /------- Can Be Learned -------/ **/
+.learn-info {
+  padding: 30px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.learn-info video {
+  border-radius: 10px;
+}
+.learn-info .registration-closed {
+  background-image: linear-gradient(#6d49f3, #5d15e5);
+  padding: 12px 5px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.learn-info .learn-req {
+  margin-top: -10px;
+  color: #646464;
+}
+
+.can-be-learned .icon {
+  background-color: #fb6f5b;
+  padding: 2px 5px;
+  margin-top: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-image: linear-gradient(#6d49f3, #5d15e5);
+  padding: 25px 0px;
+  margin-top: 40px;
   color: white;
-  font-size: 13px;
 }
 
-.my-footer {
-  background-color: rgb(15, 15, 15);
-  padding-top: 25px;
-  padding-bottom: 10px;
-  font-family: "Times New Roman", Times, serif;
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
-.fourth {
-  margin-top: 80px;
+footer a:hover {
+  color: rgb(154, 154, 154);
 }
 
-h5 img {
-  width: 300px;
+@media (max-width: 767px) {
+  .m-bottom-50 {
+    margin-bottom: 50px;
+  }
+
+  /** /------- Slider -------/ **/
+  .slider-area {
+    height: 900px;
+  }
+  .slider-area .carousel-item {
+    height: 800px;
+  }
+  .slider-area .carousel-item img {
+    max-width: 80%;
+    margin: auto;
+  }
 }
