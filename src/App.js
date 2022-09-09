@@ -1,21 +1,19 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Learnings from "./components/Learnings";
-import Slider from "./components/Slider";
+import Categories from "./components/Categories";
+import LiveSports from "./components/LiveSports";
+import Live from "./components/Live";
 import Footer from "./components/Footer";
-import NextBatch from "./components/NextBatch";
 
 const App = () => {
   return (
     <>
       <Header></Header>
-      <main>
-        <Slider></Slider>
-        <NextBatch></NextBatch>
-        <Learnings></Learnings>
-        <Footer></Footer>
-      </main>
+      <Categories></Categories>
+      <Live></Live>
+      <LiveSports></LiveSports>
+      <Footer></Footer>
     </>
   );
 };
